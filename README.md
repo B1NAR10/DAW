@@ -1,5 +1,5 @@
 # DAW
-![](https://github.githubassets.com/images/modules/logos_page/Cabeceira.jpg){width='100px'}
+![](Cabeceira.jpg)
 ## Desenvolvemento de Aplicacións Web
 
 
