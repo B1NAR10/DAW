@@ -1,0 +1,31 @@
+w3schools: Tutorial de JavaScriptURL
+https://www.w3schools.com/js/DEFAULT.asp
+
+Documentación JQuery
+jquery.com
+
+    Manual jQuery IES San Clemente
+    https://manuais.iessanclemente.net/index.php/JQuery
+
+    Laboratorio de selectoresURL
+    https://www.iessanclemente.net/recurso/labs/chapter2/lab.selectors.html
+
+    w3schools: Tutorial de jQueryURL
+    https://www.w3schools.com/jquery/
+
+Manual JQuery UI
+
+    API JQuery UI
+    https://api.jqueryui.com/
+
+    Demos jQuery UI
+    https://api.jqueryui.com/
+
+w3schools: Tutorial de canvasURL
+https://www.w3schools.com/html/html5_canvas.asp
+
+    MDN: Tutorial canvasURL
+    https://developer.mozilla.org/es/docs/Web/API/Canvas_API/Tutorial
+
+    jCanvas
+    https://projects.calebevans.me/jcanvas/docs/
