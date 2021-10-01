@@ -69,3 +69,14 @@ function SumaExer() {
     resultado.innerHTML = "O Prezo da compra son " + prezo + " que ao aplicar desconto dun 15% queda en: " + prezo_final;
 }
 ///////////////////////////////////////////////////////////////
+
+
+///////////////////////////////////////////////////////////////
+// Exercicio 4: Porcentaxe de homes e porcentaxe de mulleres 
+// que hai en clase nun momento determinado.
+function exercicio4(){
+
+    
+
+
+}
