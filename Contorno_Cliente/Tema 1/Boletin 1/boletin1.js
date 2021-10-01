@@ -33,10 +33,12 @@ function operacion(){
     
     var capital = parseFloat(entrada1.value);
     const tempo = 3;
-    const interes = 0.02;
+    const xuro = 0.02;
+    var total = capital * (1 + xuro);
+    total *= (1 + xuro);
 
-    montante_total = capital + (tempo*interes);
-    resultado.innerHTML = "O Investir " + capital + " cun interes do 2%, durante " +  tempo + " meses, temos un aforro de " +  montante_total;
+    aforro = total - capital;
+    resultado.innerHTML = "O Investir " + capital + " cun interes do 2%, durante " +  tempo + " meses, temos un aforro de " +  + Math.round(aforro * 100) / 100;
 
 }
 ///////////////////////////////////////////////////////////////
@@ -64,6 +66,6 @@ function SumaExer() {
     const desconto = 0.15;
     prezo_final = prezo-(prezo*desconto);
 
-    resultado.innerHTML = "O 15% de " + prezo + " é: " + prezo_final;
+    resultado.innerHTML = "O Prezo da compra son " + prezo + " que ao aplicar desconto dun 15% queda en: " + prezo_final;
 }
 ///////////////////////////////////////////////////////////////
