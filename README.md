@@ -12,3 +12,6 @@
 * [Desenvolvemento de Aplicacións Web en Contorno Cliente:](/Contorno_Cliente)
 * [Despregremento de Aplicacións Web:](/Despregamento_Aplicacions)
 * [Deseño de Interfaces Web:](/Deseño_Interfaces)
+
+### Calculadora de Faltas
+* [Calculadora para saber se chegamos ao 10%: ](CalcularFaltas)
