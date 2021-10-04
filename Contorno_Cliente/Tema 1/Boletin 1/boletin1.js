@@ -24,12 +24,12 @@ function exercicio2(){
     datos.innerHTML =
     '<form>' +
         '<p><label>Introduza o montante inicial: </label><input id="entrada1"></input></p>' +
-        '<button type ="button" onclick = "operacion()">Calcular</button>' +
+        '<button type ="button" onclick = "CalcularIntereses()">Calcular</button>' +
     '</form>'
 
 }
 
-function operacion(){
+function CalcularIntereses(){
     
     var capital = parseFloat(entrada1.value);
     const tempo = 3;
@@ -54,13 +54,13 @@ function exercicio3(){
     datos.innerHTML = 
     '<form>' +
         '<p><label>Inserte O Prezo da Compra: <input id="entrada1"></input></label></p>' +
-        '<button type ="button" onclick = "SumaExer()">Calcular</button>' +
+        '<button type ="button" onclick = "Desconto()">Calcular</button>' +
     '</form>'
     resultado.innerHTML = '';
 
 }
 
-function SumaExer() {
+function Desconto() {
 
     var prezo = parseFloat(entrada1.value);
     const desconto = 0.15;
@@ -75,8 +75,30 @@ function SumaExer() {
 // Exercicio 4: Porcentaxe de homes e porcentaxe de mulleres 
 // que hai en clase nun momento determinado.
 function exercicio4(){
+    enunciado.innerHTML = "Porcentaxe de homes e porcentaxe de mulleres que hai en clase nun momento determinado."
 
-    
+    datos.innerHTML =
+    "<form>" +
+        "<label>Introduzca o número de Homes:</label> </br>" +
+        "<input id='homes'></input> </br></br></br>" +  
 
+        "Introduzca o número de Mulleres: </br>" +
+        "<input id='mulleres'></input> </br></br>" +
+        
+        "<button type='button' onclick='PorcentaxeHomesMulleres()'>Calcular</button></br>" +
+    "</form>";
+    resultado.innerHTML = '';
 
+}
+
+function PorcentaxeHomesMulleres(){
+    var homes = parseInt(homes.value);
+    var mulleres = parseInt(mulleres.value);
+    var total = homes + mulleres;
+
+    var porcentaxeMulleres = Math.round((mulleres / total)*100);
+    var porcentaxeHomes = Math.round((homes / total)*100);
+
+    resultado.innerHTML = "Mulleres(%): " + porcentaxeMulleres + "</br> Homes(%): " + porcentaxeHomes;
+ 
 }
