@@ -5,11 +5,13 @@
 ///////////////////////////////////////////////////////////////
 // Exercicio 1: Suma de dous Numeros e Impresión do Resultado.
 function exercicio1(){
+
     enunciado.innerHTML = "Suma de dous Numeros e Impresión do Resultado:"
     var num1 = 5, num2 = 8;
     var suma = num1 + num2;
         
     resultado.innerHTML = num1 + "+" + num2 + "=" + suma;  
+    
 }
 ///////////////////////////////////////////////////////////////
 
