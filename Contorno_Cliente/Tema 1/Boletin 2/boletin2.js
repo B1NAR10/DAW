@@ -24,3 +24,18 @@ function CalcularAbsoluto(){
     resultado.innerHTML = "O Valor Absoluto de " + valor + " é: " + valor_absoluto;
 
 }
+///////////////////////////////////////////////////////////////
+
+
+///////////////////////////////////////////////////////////////
+// Exercicio 2: Calcular a superficie dunha figura xeométrica. 
+// A figura só pode ser TRIÁNGULO, CADRADO, RECTÁNGULCalcular a superficie dunha figura xeométrica. A figura só pode ser TRIÁNGULO, CADRADO, RECTÁNGULO ou CÍRCULO. ou CÍRCULO.
+function exercicio2(){
+
+    enunciado.innerHTML = "Exercicio 2: Calcular a superficie dunha figura xeométrica.";
+    datos.innerHTML = 
+    '<form>'
+        wkkkkk
+    '</form>'
+
+}
