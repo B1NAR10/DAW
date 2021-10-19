@@ -1,11 +1,12 @@
 # DAW
-![](Cabeceira.jpg)
-## Desenvolvemento de Aplicacións Web
 
+![](Cabeceira.jpg)
+
+## Desenvolvemento de Aplicacións Web
 
 * [GAL] Repositorio de Exercicios e Apuntamentos:
 * [ESP] Repositorio de Ejercicios e Apuntes:
-* [ENG] Exercise and Notes Repository:
+* [ENG] Exercises and Notes Repository:
 
 ### Modulos:
 * [Desenvolvemento de Aplicacións Web en Contorno Servidor:](/Contorno_Servidor)
