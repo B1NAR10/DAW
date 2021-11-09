@@ -1,6 +1,6 @@
 # Boletín 4: Vectores
 
-## Resolve os seguintes enunciados:
+## Resolve os seguintes enunciados
 
 1. Imprimir os valores dun vector de 100 elementos.
 2. Lee unha matriz de 5x6, e imprime a suma total da matriz.
@@ -35,11 +35,11 @@ e
 
 - EXEMPLO:
 
-vector_A = [1,'a',2,'t'] <br>
-vector_B = [3,2,1]
+  vector_A = [1,'a',2,'t'] <br>
+  vector_B = [3,2,1]
 
-// Os vectores solución non teñen por que estar ordenados pero seguro que así resulta máis doado ;)
-union = [1,2,3,'a','t']
-interseccion = [1,2]
+  // Os vectores solución non teñen por que estar ordenados pero seguro que así resulta máis doado ;)
+  union = [1,2,3,'a','t']
+  interseccion = [1,2]
 
 13. Crea un vector de números dun tamaño introducido por teclado, éncheo con números aleatorios primos menores que 100 e indica cal é o maior de todos eles.
