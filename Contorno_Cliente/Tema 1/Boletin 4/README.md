@@ -39,7 +39,7 @@ e
   vector_B = [3,2,1]
 
   // Os vectores solución non teñen por que estar ordenados pero seguro que así resulta máis doado ;)
-  union = [1,2,3,'a','t']
-  interseccion = [1,2]
+  <br>union = [1,2,3,'a','t']
+  <br>interseccion = [1,2]
 
 13. Crea un vector de números dun tamaño introducido por teclado, éncheo con números aleatorios primos menores que 100 e indica cal é o maior de todos eles.
