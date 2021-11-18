@@ -39,4 +39,4 @@ a) Amosa os primos que hai entre dous números que debes insertar por teclado. (
 
 b) Repite o exercicio pero empregando a biblioteca creada do exercicio 4
 
-Actividade 6. Escribe un programa que permita pasar de binario a decimal.
+### Actividade 6. Escribe un programa que permita pasar de binario a decimal.
