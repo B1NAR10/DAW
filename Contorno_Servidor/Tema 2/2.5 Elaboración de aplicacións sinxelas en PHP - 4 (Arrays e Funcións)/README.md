@@ -11,7 +11,7 @@ a) Ese conxunto de elementos debes insertalos nun array dentro del programa
 
 b) Os números debes conseguilos mediante unha petición por pantalla e insertalos nun array.
 
-## Actividade 2: 
+### Actividade 2: 
 Realiza un programa que pida a temperatura media que fixo en cada mes dun determinado ano e que amose a continuación un diagrama con esos datos.
 
 Podes utilizar os seguintes links:
