@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+@font-face {
+    font-family: "LigatureSymbols";
+    src: url(/DIW/1EVA/Practica2_6/fonts/ligature.woff);
+}
+
+[class^="icon-"], [class*="icon-"] {
+  font-family: "LigatureSymbols";
+  font-style: normal;
+}
+.icon-fogar::before {
+  content: "\E072";
+}
+
+.icon-galeria:before {
+  content: "\E026";
+}
+
+.icon-normativa::before {
+  content: "\E002";
+}
+
+.icon-equipo::before {
+  content: "\E117";
+}
+
+.icon-guias::before {
+  content: "\E058";
+}
+
+.icon{
+  font-family: "LigatureSymbols";
+}
+
+*{
+  font-family: Permanent Marker;
+}
+
+body {
+  padding: 5px;
+  background-color: #9FD4B5;
+  flex-direction: column;
+  align-items: center;
+  width: 80vw;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  justify-content: space-around;
+  
+  height: 200px;
+  width: 100%;
+
+  background-image: url("/DIW/1EVA/Practica2_6/imaxes/fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header h1 {
+  color: white;
+  text-align: center;
+  vertical-align: center;
+  font-size: 4em;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+  gap: 20px;
+}
+
+nav {
+  width: 150px;
+  background-color: #3F5448;
+}
+
+nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 150px;
+}
+
+nav ul li a{
+  display: block;
+  color: white;
+  border-bottom: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  
+  text-align: center;
+  text-decoration: none;
+  background-color: #3F5448;
+  transition: 0.3s;
+}
+
+nav ul li a:hover{
+  background-color: #92E0DF;
+  color: #194747;
+  transform: scale(1.1,1.1);
+  box-shadow: none 6px 4% black;
+}
+
+article {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-auto-rows: minmax(200px, auto);
+  grid-auto-flow: dense;
+  flex-grow: 3;
+}
+
+.grid-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  background-color: #3F5448;
+  color: white;
+  border-radius: 2px;
+  margin-top: 10px;
+  position: sticky;
+  bottom: 0px;
+}
