@@ -1,4 +1,5 @@
 ﻿function xogos() {	
+	menu.innerHTML = texto;
 }
 
 function ranking(campo) {
@@ -41,11 +42,4 @@ function cancelar() {
 }
 
 function sair() {
-}
-
-
-// Inicializa o menú
-function pintarMenu() {
-	texto = '<div id="menu">';
-	menu.innerHTML = texto;
 }
