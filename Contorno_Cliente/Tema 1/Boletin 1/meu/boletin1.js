@@ -104,3 +104,74 @@ function PorcentaxeHomesMulleres(){
     resultado.innerHTML = "Mulleres(%): " + porcentaxeMulleres + "</br> Homes(%): " + porcentaxeHomes;
  
 }
+///////////////////////////////////////////////////////////////
+
+
+///////////////////////////////////////////////////////////////
+// Exercicio 5: Dada unha cantidade en euros, obter a 
+// equivalencia en pesetas e en dólares.
+function exercicio5(){
+    enunciado.innerHTML = "Dada unha cantidade en euros, obter a equivalencia en pesetas e en dólares.";
+    datos.innerHTML =  
+    "<form>" +
+        "<label>Introduzca o Número de Euros:</label> </br>" +
+        "<input id='euro'></input> </br></br>" +
+        "<button type='button' onclick='EurosPesetasDolares()'>Calcular</button></br>" +
+    "</form>";
+    resultado.innerHTML = '';
+}
+
+function EurosPesetasDolares(){
+    var euros = parseFloat(euro.value);
+    var pesetas = euros * 166.386;
+    var dolares = euros * 1.13;
+    resultado.innerHTML = euros + "€ son: <br>" + pesetas + " pesetas <br>" + dolares + " dolares";
+}
+///////////////////////////////////////////////////////////////
+
+
+///////////////////////////////////////////////////////////////
+// Exercicio 6: Calcular o numero de pulsacións que ten unha 
+// persoa por cada dez segundos de exercicio se a fórmula é 
+// numeroDePulsacions = (220-idade)/6.
+function exercicio6(){
+    enunciado.innerHTML = "Calcular o numero de pulsacións que ten unha persoa por cada dez segundos de exercicio se a fórmula é numeroDePulsacions = (220-idade)/6.";
+    datos.innerHTML =
+    "<form>" +
+        "<label>Introduzca a idade:</label> </br>" +
+        "<input id='idade'></input> </br></br>" +
+        "<button type='button' onclick='Pulsacions()'>Calcular</button></br>" +
+    "</form>";
+    resultado.innerHTML = '';
+}
+
+function Pulsacions(){
+    var idadePersoa = parseInt(idade.value);
+    var pulsacions = (220-idadePersoa)/6;
+    resultado.innerHTML = "A persoa ten " + pulsacions + " pulsacions por cada dez segundos de exercicio";
+}
+///////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////
+// Exercicio 7: Dados dous números, calcula a división 
+// do primeiro entre o segundo e imprímea por pantalla
+
+function exercicio7(){
+    enunciado.innerHTML = "Dados dous números, calcula a división do primeiro entre o segundo e imprímea por pantalla";
+    datos.innerHTML =
+    "<form>" +
+        "<label>Introduzca o Primeiro Número:</label> </br>" +
+        "<input id='num1'></input> </br></br>" +
+        "<label>Introduzca o Segundo Número:</label> </br>" +
+        "<input id='num2'></input> </br></br>" +
+        "<button type='button' onclick='Division()'>Calcular</button></br>" +
+    "</form>";
+    resultado.innerHTML = '';
+}
+
+function Division(){
+    var numero1 = parseFloat(num1.value);
+    var numero2 = parseFloat(num2.value);
+    var division = numero1/numero2;
+    resultado.innerHTML = "A división de " + numero1 + " entre " + numero2 + " é: " + division;
+}
