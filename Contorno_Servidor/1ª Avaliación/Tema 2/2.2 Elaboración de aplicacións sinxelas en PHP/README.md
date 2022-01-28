@@ -20,7 +20,7 @@
 
 - Imprime por pantalla o valor das variables e o resultado do producto.
 
-- [Solución](/Actividade_2/)
+- [Solución](https://github.com/B1NAR10/DAW/tree/main/Contorno_Servidor/1%C2%AA%20Avaliaci%C3%B3n/Tema%202/2.2%20Elaboraci%C3%B3n%20de%20aplicaci%C3%B3ns%20sinxelas%20en%20PHP/Actividade_2)
 
 </br>
 
@@ -30,7 +30,7 @@
 
 - Imprime por pantalla o valor das variables e o resultado do producto.
 
-- [Solución](/Actividade_3/)
+- [Solución](https://github.com/B1NAR10/DAW/tree/main/Contorno_Servidor/1%C2%AA%20Avaliaci%C3%B3n/Tema%202/2.2%20Elaboraci%C3%B3n%20de%20aplicaci%C3%B3ns%20sinxelas%20en%20PHP/Actividade_3)
 
 </br>
 
@@ -40,4 +40,4 @@
 
 - Imprime por pantalla esta táboa.
 
-- [Solución](/Actividade_4/)
+- [Solución](https://github.com/B1NAR10/DAW/tree/main/Contorno_Servidor/1%C2%AA%20Avaliaci%C3%B3n/Tema%202/2.2%20Elaboraci%C3%B3n%20de%20aplicaci%C3%B3ns%20sinxelas%20en%20PHP/Actividade_4)
