@@ -10,7 +10,7 @@
 
 - Fai o mesmo pero conseguindo que a seguinte frase esté en negrita: "Estou coa tarefa T2.2 e vou poñer en negrita este texto con PHP"
 
-- [Solución](/Contorno_Servidor/1ª Avaliación/Tema 2/2.2 Elaboración de aplicacións sinxelas en PHP/Actividade_1/)
+- [Solución](https://github.com/B1NAR10/DAW/tree/main/Contorno_Servidor/1%C2%AA%20Avaliaci%C3%B3n/Tema%202/2.2%20Elaboraci%C3%B3n%20de%20aplicaci%C3%B3ns%20sinxelas%20en%20PHP/Actividade_1)
 
 </br>
 
