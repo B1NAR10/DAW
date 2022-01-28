@@ -10,7 +10,7 @@
 
 - Fai o mesmo pero conseguindo que a seguinte frase esté en negrita: "Estou coa tarefa T2.2 e vou poñer en negrita este texto con PHP"
 
-- [Solución](/Actividade_1/T2_2_cursiva.php)
+- [Solución](/Actividade_1/)
 
 </br>
 
@@ -20,7 +20,7 @@
 
 - Imprime por pantalla o valor das variables e o resultado do producto.
 
-- [Solución](/Actividade_2/T2_2_variable.php)
+- [Solución](/Actividade_2/)
 
 </br>
 
@@ -30,7 +30,7 @@
 
 - Imprime por pantalla o valor das variables e o resultado do producto.
 
-- [Solución](/Actividade_3/T2_2_variable2.html)
+- [Solución](/Actividade_3/)
 
 </br>
 
@@ -40,4 +40,4 @@
 
 - Imprime por pantalla esta táboa.
 
-- [Solución](/Actividade_4/T2_2_taboa.php)
+- [Solución](/Actividade_4/)
