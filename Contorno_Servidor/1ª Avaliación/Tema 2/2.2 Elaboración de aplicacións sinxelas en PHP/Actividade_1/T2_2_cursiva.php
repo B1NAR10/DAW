@@ -14,4 +14,4 @@
           echo "<b>Estou coa tarefa T2.2 e vou poñer en cursiva este texto con PHP</b>"; ?>
 
 </body>
-</html>
+</html> 
