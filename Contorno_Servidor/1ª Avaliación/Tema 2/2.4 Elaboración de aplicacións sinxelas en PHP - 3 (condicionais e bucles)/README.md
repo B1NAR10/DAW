@@ -16,7 +16,7 @@ Para esta tarefa debes realizar as seguintes actividades e en cada unha delas de
 
 - Escribe un programa en que dado un número do 1 ao 12 escriba o correspondente nome do mes do año.
 
-- [Soluación](https://github.com/B1NAR10/DAW/tree/main/Contorno_Servidor/1%C2%AA%20Avaliaci%C3%B3n/Tema%202/2.4%20Elaboraci%C3%B3n%20de%20aplicaci%C3%B3ns%20sinxelas%20en%20PHP%20-%203%20(condicionais%20e%20bucles)/Actividade_2)
+- [Solución](https://github.com/B1NAR10/DAW/tree/main/Contorno_Servidor/1%C2%AA%20Avaliaci%C3%B3n/Tema%202/2.4%20Elaboraci%C3%B3n%20de%20aplicaci%C3%B3ns%20sinxelas%20en%20PHP%20-%203%20(condicionais%20e%20bucles)/Actividade_2)
 
 </br>
 
@@ -24,7 +24,7 @@ Para esta tarefa debes realizar as seguintes actividades e en cada unha delas de
 
 - Realiza un programa que diga se un número enteiro positivo introducido por teclado é capicúa. Permítense números de ata 5 díxitos. NOTA: Un número capicúa é aquel que se pode ler de dereita a esquerda e viceversa, obtendo o mesmo valor. Por exemplo: 212, 2332, 45654
 
-- [Soluación](https://github.com/B1NAR10/DAW/tree/main/Contorno_Servidor/1%C2%AA%20Avaliaci%C3%B3n/Tema%202/2.4%20Elaboraci%C3%B3n%20de%20aplicaci%C3%B3ns%20sinxelas%20en%20PHP%20-%203%20(condicionais%20e%20bucles)/Actividade_3)
+- [Solución](https://github.com/B1NAR10/DAW/tree/main/Contorno_Servidor/1%C2%AA%20Avaliaci%C3%B3n/Tema%202/2.4%20Elaboraci%C3%B3n%20de%20aplicaci%C3%B3ns%20sinxelas%20en%20PHP%20-%203%20(condicionais%20e%20bucles)/Actividade_3)
 
 </br>
 
@@ -43,7 +43,7 @@ Para esta tarefa debes realizar as seguintes actividades e en cada unha delas de
     Hoxe é domingo e vou descansar pescando no río
     se se introduce mal a variable de entrada, debe devolver unha mensaxe de erro.
 
-- [Soluación](https://github.com/B1NAR10/DAW/tree/main/Contorno_Servidor/1%C2%AA%20Avaliaci%C3%B3n/Tema%202/2.4%20Elaboraci%C3%B3n%20de%20aplicaci%C3%B3ns%20sinxelas%20en%20PHP%20-%203%20(condicionais%20e%20bucles)/Actividade_4)
+- [Solución](https://github.com/B1NAR10/DAW/tree/main/Contorno_Servidor/1%C2%AA%20Avaliaci%C3%B3n/Tema%202/2.4%20Elaboraci%C3%B3n%20de%20aplicaci%C3%B3ns%20sinxelas%20en%20PHP%20-%203%20(condicionais%20e%20bucles)/Actividade_4)
 
 ##  Bucles
 
@@ -58,7 +58,7 @@ Para esta tarefa debes realizar as seguintes actividades e en cada unha delas de
 
     c) Insertando por teclado esos dous números e utilizando un bucle while
 
-- [Soluación](https://github.com/B1NAR10/DAW/tree/main/Contorno_Servidor/1%C2%AA%20Avaliaci%C3%B3n/Tema%202/2.4%20Elaboraci%C3%B3n%20de%20aplicaci%C3%B3ns%20sinxelas%20en%20PHP%20-%203%20(condicionais%20e%20bucles)/Actividade_5)
+- [Solución](https://github.com/B1NAR10/DAW/tree/main/Contorno_Servidor/1%C2%AA%20Avaliaci%C3%B3n/Tema%202/2.4%20Elaboraci%C3%B3n%20de%20aplicaci%C3%B3ns%20sinxelas%20en%20PHP%20-%203%20(condicionais%20e%20bucles)/Actividade_5)
 
 </br>
 
@@ -72,4 +72,4 @@ Para esta tarefa debes realizar as seguintes actividades e en cada unha delas de
   
 - Se acertamos aparecerá a mensaxe "A caixa forte abréuse satisfactoriamente". Terás só 4 oportunidades para abrila, en caso de non acertar aparecerá a mensaxe "Debes esperar un minuto para o volver intentar e inserta a combinación"  terás que esperar 1 minuto para que volva pedir a combinación.
 
-- [Soluación](https://github.com/B1NAR10/DAW/tree/main/Contorno_Servidor/1%C2%AA%20Avaliaci%C3%B3n/Tema%202/2.4%20Elaboraci%C3%B3n%20de%20aplicaci%C3%B3ns%20sinxelas%20en%20PHP%20-%203%20(condicionais%20e%20bucles)/Actividade_6)
+- [Solución](https://github.com/B1NAR10/DAW/tree/main/Contorno_Servidor/1%C2%AA%20Avaliaci%C3%B3n/Tema%202/2.4%20Elaboraci%C3%B3n%20de%20aplicaci%C3%B3ns%20sinxelas%20en%20PHP%20-%203%20(condicionais%20e%20bucles)/Actividade_6)
