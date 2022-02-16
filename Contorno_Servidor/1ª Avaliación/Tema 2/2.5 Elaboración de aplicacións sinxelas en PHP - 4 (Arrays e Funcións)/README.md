@@ -2,46 +2,73 @@
 
 Para esta tarefa debes realizar as seguintes actividades e en cada unha delas debes insertar pantallazos co código e co resultado de aplicar ese código. Entrega un único archivo .pdf con toda esta información
 
-## Arrays:
+## Arrays
 
-### Actividade 1:
+### Actividade 1
+
 Escribe un programa no que debes ordenar 10 números de maior a menor:
 
-a) Ese conxunto de elementos debes insertalos nun array dentro del programa
+    a) Ese conxunto de elementos debes insertalos nun array dentro del programa
 
-b) Os números debes conseguilos mediante unha petición por pantalla e insertalos nun array.
+    b) Os números debes conseguilos mediante unha petición por pantalla e insertalos nun array.
 
-### Actividade 2: 
-Realiza un programa que pida a temperatura media que fixo en cada mes dun determinado ano e que amose a continuación un diagrama con esos datos.
+- [Solución](https://github.com/B1NAR10/DAW/tree/main/Contorno_Servidor/1%C2%AA%20Avaliaci%C3%B3n/Tema%202/2.5%20Elaboraci%C3%B3n%20de%20aplicaci%C3%B3ns%20sinxelas%20en%20PHP%20-%204%20(Arrays%20e%20Funci%C3%B3ns)/Actividade_1)
 
-Podes utilizar os seguintes links:
+</br>
 
-https://phpchart.com/
+### Actividade 2
 
-https://obedalvarado.pw/blog/las-5-mejores-librerias-gratuitas-generar-graficos-php/
+- Realiza un programa que pida a temperatura media que fixo en cada mes dun determinado ano e que amose a continuación un diagrama con esos datos.
 
-### Actividade 3:
-Realiza un programa que pida 8 números enteiros e que logo amose esos números con cores: os pares dunha cor e os impares doutro.
+- Podes utilizar os seguintes links:
 
-## Funcións:
+    <https://phpchart.com>
 
-### Actividade 4: 
-Crea unha biblioteca de funcións matemáticas que conteña as seguintes funcións:
+    <https://obedalvarado.pw/blog/las-5-mejores-librerias-gratuitas-generar-graficos-php/>
+</br>
 
-a) esCapicua: Devolve verdadeiro se o nº que se pasa como parámetro é capicúa e falso en caso contrario (por exemplo: 232 que se le de esquerda a dereita e viceversa, obtendo o mesmo nº)
+- [Solución](https://github.com/B1NAR10/DAW/tree/main/Contorno_Servidor/1%C2%AA%20Avaliaci%C3%B3n/Tema%202/2.5%20Elaboraci%C3%B3n%20de%20aplicaci%C3%B3ns%20sinxelas%20en%20PHP%20-%204%20(Arrays%20e%20Funci%C3%B3ns)/Actividade_2)
 
-b) esPrimo: Devolve verdadeiro se o número que se pasa como parámetro é primo e falso en caso contrario (por exemplo: 23 é un número primo, pero 22 non)
+</br>
 
-c) digitos: Conta o nº de díxitos dun número enteiro (por exemplo: o número de díxitos  de 2134 é 4)
+### Actividade 3
 
-d) juntaNumeros: Pega dous números para formar un (por exemplo: 12 e 432 debería devolver o 12432)
+- Realiza un programa que pida 8 números enteiros e que logo amose esos números con cores: os pares dunha cor e os impares doutro.
 
+- [Solución](https://github.com/B1NAR10/DAW/tree/main/Contorno_Servidor/1%C2%AA%20Avaliaci%C3%B3n/Tema%202/2.5%20Elaboraci%C3%B3n%20de%20aplicaci%C3%B3ns%20sinxelas%20en%20PHP%20-%204%20(Arrays%20e%20Funci%C3%B3ns)/Actividade_3)
 
-### Actividade 5:
+</br>
 
-a) Amosa os primos que hai entre dous números que debes insertar por teclado. ( Por exemplo entre 34 e 123 )
+## Funcións
 
-b) Repite o exercicio pero empregando a biblioteca creada do exercicio 4
+### Actividade 4
 
-### Actividade 6: 
-Escribe un programa que permita pasar de binario a decimal.
+- Crea unha biblioteca de funcións matemáticas que conteña as seguintes funcións:
+
+        a) eCapicua: Devolve verdadeiro se o nº que se pasa como parámetro é capicúa e falso en caso contrario (por exemplo: 232 que se le de esquerda a dereita e viceversa, obtendo o mesmo nº)
+
+        b) ePrimo: Devolve verdadeiro se o número que se pasa como parámetro é primo e falso en caso contrario (por exemplo: 23 é un número primo, pero 22 non)
+
+        c) digitos: Conta o nº de díxitos dun número enteiro (por exemplo: o número de díxitos  de 2134 é 4)
+
+        d) xuntaNumeros: Pega dous números para formar un (por exemplo: 12 e 432 debería devolver o 12432)
+
+- [Solución](https://github.com/B1NAR10/DAW/tree/main/Contorno_Servidor/1%C2%AA%20Avaliaci%C3%B3n/Tema%202/2.5%20Elaboraci%C3%B3n%20de%20aplicaci%C3%B3ns%20sinxelas%20en%20PHP%20-%204%20(Arrays%20e%20Funci%C3%B3ns)/Actividade_4)
+
+</br>
+
+### Actividade 5
+
+    a) Amosa os primos que hai entre dous números que debes insertar por teclado. ( Por exemplo entre 34 e 123 )
+
+    b) Repite o exercicio pero empregando a biblioteca creada do exercicio 4
+
+- [Solución](https://github.com/B1NAR10/DAW/tree/main/Contorno_Servidor/1%C2%AA%20Avaliaci%C3%B3n/Tema%202/2.5%20Elaboraci%C3%B3n%20de%20aplicaci%C3%B3ns%20sinxelas%20en%20PHP%20-%204%20(Arrays%20e%20Funci%C3%B3ns)/Actividade_5)
+
+</br>
+
+### Actividade 6
+
+- Escribe un programa que permita pasar de binario a decimal.
+
+- [Solución](https://github.com/B1NAR10/DAW/tree/main/Contorno_Servidor/1%C2%AA%20Avaliaci%C3%B3n/Tema%202/2.5%20Elaboraci%C3%B3n%20de%20aplicaci%C3%B3ns%20sinxelas%20en%20PHP%20-%204%20(Arrays%20e%20Funci%C3%B3ns)/Actividade_6)
