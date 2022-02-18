@@ -1,4 +1,4 @@
-# Práctica 3.1
+#  Práctica 3.1
 
 - El objetivo de la práctica es aplicar las Pautas de Accesibilidad para el Contenido Web WCAG 2.0 en la evaluación y corrección de una página web.
 </br>
