@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Balsamiq+Sans);
+@font-face {
+    font-family: "LigatureSymbols";
+    src: url(LigatureSymbols-2.11.woff);
+}
+
+.face::before{
+    font-family: "LigatureSymbols";
+    content: "\E047";
+    font-size: 2em;
+}
+.twitter::before{
+    font-family: "LigatureSymbols";
+    content: "\E12f";
+    font-size: 2em;
+}
+body{
+    font-family: arial;
+    color: #fff;
+    background-color: #294072;
+}
+#container1, #formulario{
+    display: flex;
+    flex-direction: column;
+}
+#container2, #container3, #container4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#formulario, #container2, #container3, #container4{
+    margin: 12px;
+    margin-left: 36px;
+    margin-right: 36px;
+}
+#logintwitter, #loginfacebook, #iniciarsesion, #container6,input, #registrarse{
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    height: 48px;
+    font-weight: bold;
+}
+#iniciarsesion, #registrarse{
+    font-size: 24px;
+    font-weight: bold;
+}
+h1, #container4{
+    background-color: #17233B;
+    margin:0;
+    padding: 12px;
+    padding-left: 36px;
+    padding-right: 36px;
+}
+h1{
+    font-weight: bold;
+    text-align: center
+}
+#container1{
+    background-color: #1C2B4A;
+    margin: 0 auto;
+    margin-top: 96px;
+    width: 580px;
+}
+.icon{
+    font-family: LigatureSymbols;
+}
+.container6{
+    background-color: #12192C;
+    margin-top: 12px;
+    padding-left: 12px;
+    font-size: 24px;
+    color: #00CC66;
+}
+input{
+    background-color: transparent;
+    width: 94%;
+}
+#iniciarsesion{
+    background-color: #00CC66;
+    height: 60px;
+    margin-top: 24px;
+}
+#container5{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#recordarme{
+    margin: 0;
+    margin-right: 6px;
+}
+#loginfacebook{
+    background-color: #3B5A9A;
+}
+#logintwitter{
+    background-color: #2CA8D2;
+}
+#registrarse{
+    background-color: #009966;
+}

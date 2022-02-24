@@ -1,0 +1,462 @@
+var textoEnunciado = "ENUNCIADO:";
+var textoDatos = "DATOS:";
+var textoResultado = "RESULTADO:";
+var enunciados = new Array(11);
+var figura = '';
+iniciarEnunciados();
+
+// iniciarEnunciados: Inicializa o vector bidimensional cos enunciados dos exercicios
+function iniciarEnunciados() {
+	for(var i=0; i<enunciados.length; i++)
+	{
+		switch(i)
+		{
+			case 0: enunciados[i] = "Calcula se gañaches a porra dos partidos da Champions League, sabendo que as apostas eran sobre oito partidos e só se podía apostar 1, X ou 2 en cada partido."; break;
+			case 1: enunciados[i] = "Vamos botar unha partida de tute. Comproba se algún dos contrincantes pode cantar despois de repartir as cartas."; break;
+			case 2: enunciados[i] = "Saber se un alumno está aprobado ou suspenso na materia, tendo en conta que para aprobar debe ter unha nota maior ou igual a 4 nos exames parciais teóricos e prácticos, sempre e cando a nota media dos exames sexa superior ou igual a 5."; break;    
+			case 3: enunciados[i] = "Converter un número romano introducido no seu equivalente arábigo."; break;
+			case 4: enunciados[i] = "Converter un número arábigo introducido no seu equivalente romano."; break;
+			case 5: enunciados[i] = "Indicar que tipo de triángulo é (equilátero, isósceles, escaleno ou non é un triángulo) a partir das medidas dos lados introducidas por teclado."; break;
+			case 6: enunciados[i] = "Dada unha frase, comprobar se é palíndromo."; break;
+			case 7: enunciados[i] = "Dado un número variable de figuras xeométricas (triángulo, cadrado, rectángulo e círculo) amosar a área de cada unha delas e dicir cal é a máis grande. O dato de entrada serán os lados."; break;
+			case 8: enunciados[i] = "Facer unha páxina que xere dous números do 0 ao 9 aleatoriamente que estarán colocados en dúas caixas. Terá que existir un botón para que os xere e outro para que os compare. Cando os compare terá que indicar se son iguais ou non, transferindo o maior dos dous a outra caixa."; break;
+			case 9: enunciados[i] = "Recoller unha frase mediante un formulario e sacar despois unha estatística por pantalla onde se indique, por separado, cantas letras, números e outro tipo de caracteres hai na frase introducida."; break;
+			case 10: enunciados[i] = "Amosar por pantalla a táboa de multiplicar dun número dado."; break;
+			default: break;
+		}
+	}
+}
+
+// exercicio: Amosa o enunciado do exercicio e pide os datos precisos para resolvelo
+function exercicio(numero) {	
+	for(var i=1; i<enunciados.length+1; i++) {
+		document.getElementById("exercicio" + i).classList.remove("activo");			
+	}
+	document.getElementById("exercicio" + numero).classList.add("activo");
+	enunciado.innerHTML = textoEnunciado + "<p>" + enunciados[numero-1] + "</p>";
+	datos.innerHTML = textoDatos;
+	resultado.innerHTML = textoResultado;
+	pedirDatos(numero);
+}
+
+// pedirDatos: Amosa o formulario correspondente ao enunciado
+function pedirDatos(numero) {
+	switch(numero)
+	{
+		case "1": exercicio1(); break;
+		case "2": exercicio2(); break;
+		case "3": exercicio3(); break;
+		case "4": exercicio4(); break;
+		case "5": exercicio5(); break;
+		case "6": exercicio6(); break;
+		case "7": exercicio7(); break;
+		case "8": exercicio8(); break;
+		case "9": exercicio9(); break;
+		case "10": exercicio10(); break;
+		case "11": exercicio11(); break;
+		default: break;
+	}
+}
+
+// marcar: Marca o resultado escollido polo usuario
+function marcar(elemento) {
+	var tamano = elemento.length;
+	for(var i=0; i<3; i++) {
+		document.getElementById(elemento.substr(0,tamano-1)+i).classList.remove("activo");			
+	}
+	document.getElementById(elemento).classList.add("activo");
+	prognosticos[elemento.substr(tamano-2,1)] = elemento.substr(tamano-1,1);
+}
+
+// comprobar: Compara os resultados
+function comprobar() {
+	var acertos = 0;
+	for(var i=0; i<prognosticos.length; i++) {
+		if(resultados[i] == prognosticos[i]) {
+			acertos++;
+			document.getElementById('resultado'+i+prognosticos[i]).classList.remove("activo");	
+			document.getElementById('resultado'+i+prognosticos[i]).classList.add("correcto");			
+		}
+	}
+	if (acertos == prognosticos.length) {
+		texto = 'GAÑACHES: Tes ' + acertos + ' acertos';
+	}
+	else {
+		texto = 'PERDICHES: Tes ' + acertos + ' acertos';
+	}
+	amosarResultado(texto);
+}
+
+function exercicio1() {
+	var partidos = ["Bayern München - Shakhtar Donetz","Chelsea - Paris Saint Germain","Porto - Basel","Real Madrid - Schalke 04","Atlético de Madrid - Bayer 04 Leverkusen","FC barcelona - Manchester City","Borussia Dortmund - Juventus","Monaco - Arsenal"];
+	resultados = new Array("1","0","1","2","1","1","2","2");
+	prognosticos = new Array("","","","","","","","");
+	for(var i=0; i<partidos.length; i++) {
+		datos.innerHTML += "<div id='partido" + i + "'>" +  partidos[i] + 
+								"<span id='resultado" + i + "1' class='resultado' onclick='marcar(this.id);'/>1</span>" +
+								"<span id='resultado" + i + "0' class='resultado' onclick='marcar(this.id);'/>X</span>" +
+								"<span id='resultado" + i + "2' class='resultado' onclick='marcar(this.id);'/>2</span></div>";			
+	}
+	datos.innerHTML += "<div id='comprobar' class='boton' onclick='comprobar();'>Comprobar</div>"; 
+}
+
+function exercicio2() {
+	var baralla = new Array("o1","o2","o3","o4","o5","o6","o7","o10","o11","o12",
+							"c1","c2","c3","c4","c5","c6","c7","c10","c11","c12",
+							"e1","e2","e3","e4","e5","e6","e7","e10","e11","e12",
+							"b1","b2","b3","b4","b5","b6","b7","b10","b11","b12");
+	baralla.sort(function() {return Math.random() - 0.5});
+
+	var cantes = new Array(4);
+	for(var i=0; i<cantes.length; i++)
+	{
+		cantes[i] = new Array(false,false,false,false,false,false,false,false);
+	}
+
+	for (var i=0; i<baralla.length; i++) {	
+		if (i%10 == 0) { var xogador = i/10; }
+		switch(baralla[i])
+		{
+			case "o11": cantes[xogador][0] = true; break;
+			case "o12": cantes[xogador][1] = true; break;
+			case "c11": cantes[xogador][2] = true; break;
+			case "c12": cantes[xogador][3] = true; break;
+			case "e11": cantes[xogador][4] = true; break;
+			case "e12": cantes[xogador][5] = true; break;
+			case "b11": cantes[xogador][6] = true; break;
+			case "b12": cantes[xogador][7] = true; break;
+			default: break;
+		}
+	}
+
+	var podeCantar = new Array(4);
+	for (var i=0; i<4; i++) {	
+		podeCantar[i] = "";
+		if (cantes[i][0] && cantes[i][1]) { 
+			podeCantar[i] = "Pode cantar en Ouros"; 
+		}
+		if (cantes[i][2] && cantes[i][3]) { 
+			if (podeCantar[i] == "") { 
+				podeCantar[i] = "Pode cantar en Copas"; 
+			} else {
+				podeCantar[i] += " e en Copas";
+			}
+		}	
+		if (cantes[i][4] && cantes[i][5]) { 
+			if (podeCantar[i] == "") { 
+				podeCantar[i] = "Pode cantar en Espadas"; 
+			} else {
+				podeCantar[i] += " e en Espadas";
+			}
+		}
+		if (cantes[i][6] && cantes[i][7]) { 
+			if (podeCantar[i] == "") { 
+				podeCantar[i] = "Pode cantar en Bastos"; 
+			} else {
+				podeCantar[i] += " e en Bastos";
+			} 
+		}
+		if (podeCantar[i] == "") {podeCantar[i] = "Non pode cantar";}
+	}	
+	
+	datos.innerHTML = '';
+
+	for(var i=0; i<baralla.length; i++)
+	{
+		if (i%10 == 0) {
+			var xogador = (i/10) + 1; 
+			resultado.innerHTML += "<p>XOGADOR " + xogador + ": " + podeCantar[xogador-1];
+		}
+
+		resultado.innerHTML += "<figure><img src='./imaxes/baralla/" + baralla[i] + ".jpg'></figure>";
+
+		if (i%10 == 9) {
+			resultado.innerHTML += "</p>";
+		}			
+	}
+}
+
+function aprobar(nota) {
+	if (nota < 4) { suspenso = true; }
+	notas.push(nota);
+	numero = notas.length;
+	total = 0;
+	for(var i=0; i<numero; i++) {
+		total += parseFloat(notas[i]);
+	}
+	textoAnterior += "<p>" + nota + "</p>"; 
+	pedirNota();
+	if (!suspenso) { 
+		media = total/numero;
+		if (media < 5) {
+			texto = "SUSPENSO -- MEDIA: " + media.toFixed(2); 
+		} else {
+			texto = "APROBADO -- MEDIA: " + media.toFixed(2); 
+		}
+	} else {
+		texto = "SUSPENSO -- HAI NOTAS MENORES DE CATRO"; 
+	} 
+	amosarResultado(texto); 
+}
+
+function pedirNota() {	
+	textoActual = "<p><label>NOTA DO EXAME: </label><input type='text' onchange='aprobar(this.value);'></p>";
+	datos.innerHTML = textoDatos + "<form>" + textoAnterior + textoActual + "</form>"; 
+}
+
+function exercicio3() {
+	notas = new Array();
+	media = 0;
+	numNotas = 0;
+	textoAnterior = '';
+	suspenso = false;
+	pedirNota();
+}
+
+function validarRomano(romano) {
+	romano = romano.toUpperCase();
+	var correcto = true;
+	var numero = 0;
+	for (var i=0; i<romano.length; i++) {
+		switch (romano[i]) {
+			case 'I': 
+			case 'V': 				
+			case 'X': 		
+			case 'L': 
+			case 'C': 				
+			case 'D': 				
+			case 'M': break;	
+			default: correcto = false; break;
+		}
+	}
+	
+	if (!correcto) {
+		texto = "DATO INCORRECTO: Algunha das letras introducidas non ten valor en números romanos";
+	} else {	
+		var romanos = new Array("MMM","MM","M","CM","DCCC","DCC","DC","D","CD","CCC","CC","C",
+								"XC","LXXX","LXX","LX","L","XL","XXX","XX","X","IX","VIII","VII","VI","V","IV","III","II","I");
+		var decimais = new Array("3000","2000","1000","900","800","700","600","500","400","300","200","100",
+								"90","80","70","60","50","40","30","20","10","9","8","7","6","5","4","3","2","1");
+		var offset = new Array(2,11,20,29);
+		for (var i=0; i<romanos.length; i++) {
+			if (romano.match(romanos[i]) && romano.search(romanos[i]) == 0) {
+				romano = romano.replace(romanos[i],'');
+				numero += parseInt(decimais[i]);
+				if (decimais[i]>999) { 
+					i = offset[0]; 
+				} else if (decimais[i]>99) { 
+					i = offset[1]; 
+				} else if (decimais[i]>9) {
+					i = offset[2]; 
+				} else if (decimais[i]>0) { 
+					i = offset[3]; 
+				}
+			}
+		}
+		if (romano != '') {
+			texto = "DATO INCORRECTO: Bloque repetido ou incorrecto";
+		}else{
+			texto = "O número en decimal é o " + numero;	
+		}
+	}
+	amosarResultado(texto);
+}
+
+function exercicio4() { 
+	datos.innerHTML = textoDatos + "<p><label>NÚMERO ROMANO: </label><input type='text' onchange='validarRomano(this.value);'></p>";
+}	
+
+function validarDecimal(numero)
+{
+	if (isNaN(numero)) {
+		texto = "DATO INCORRECTO: O valor introducido non é un número";
+	} else {
+		if (numero < 4000) {
+			texto = "O número en romano é o " + calcularRomano(numero);
+		} else {
+			texto = "DATO INCORRECTO: O valor introducido excede o rango permitido";
+		}			
+	}
+	amosarResultado(texto);
+}
+
+function calcularRomano(numero)
+{
+	var millares = new Array('','M','MM','MMM');
+	var centeas = new Array('','C','CC','CCC','CD','D','DC','DCC','DCCC','CM');
+	var deceas = new Array('','X','XX','XXX','XL','L','LX','LXX','LXXX','XC');	
+	var unidades = new Array('','I','II','III','IV','V','VI','VII','VIII','IX');
+
+	var restoMillares, restoCenteas, restoDeceas, restoUnidades;
+
+	restoUnidades = numero % 10;
+	numero = (numero - restoUnidades) / 10;
+
+	restoDeceas = numero % 10;
+	numero = (numero - restoDeceas) / 10;
+
+	restoCenteas = numero % 10;
+	numero = (numero - restoCenteas) / 10;	
+
+	restoMillares = numero;	
+	
+	return millares[restoMillares] + centeas[restoCenteas] + deceas[restoDeceas] + unidades[restoUnidades];
+}
+
+function exercicio5() { 
+	datos.innerHTML = textoDatos + "<p><label>NÚMERO ARÁBIGO: </label><input type='text' onchange='validarDecimal(this.value);'></p>";
+}
+
+function triangulo(lado1,lado2,lado3){
+	lado1 = parseFloat(lado1);
+	lado2 = parseFloat(lado2);
+	lado3 = parseFloat(lado3);
+	
+	switch (true) {
+		case (lado1 + lado2 <= lado3):
+		case (lado1 + lado3 <= lado2):
+		case (lado3 + lado2 <= lado1): texto = 'Os datos introducidos NON forman un triángulo'; break;
+		case (lado1 == lado2 && lado2 == lado3): texto = 'O triángulo é EQUILÁTERO'; break;
+		case (lado1 == lado2 && lado2 != lado3): 
+		case (lado1 == lado3 && lado2 != lado3):
+		case (lado3 == lado2 && lado2 != lado1): texto = 'O triángulo é ISÓSCELES'; break;
+		default: texto = 'O triángulo é ESCALENO'; break;
+	}
+	amosarResultado(texto);
+}
+
+function exercicio6() { 
+	datos.innerHTML = textoDatos + 	"<p><label>Lado 1: </label><input type='text' id='lado1' value='0'/></p>" + 
+									"<p><label>Lado 2: </label><input type='text' id='lado2' value='0'/></p>" +
+									"<p><label>Lado 3: </label><input type='text' id='lado3' value='0'/></p>" +
+									"<div id='triangulo' class='boton' onclick='triangulo(lado1.value,lado2.value,lado3.value);'>Indicar</div>";
+}
+
+function amosarResultado(texto) { 
+	resultado.innerHTML = textoResultado + "<p>" + texto + "</p>";
+}
+
+function palindromo(frase) { 
+	frase = frase.replace(/ /g,'').toUpperCase().replace(/Á/g,'A').replace(/É/g,'E').replace(/Í/g,'I').replace(/Ó/g,'O').replace(/Ú/g,'U');
+	
+	var correcto = true;
+	var fin = frase.length - 1;
+	for (var i=0; i<frase.length/2; i++) {
+		if (frase[i] != frase[fin]) { correcto = false; break; }
+		fin--;
+	}
+	if (correcto) {
+		texto = 'A frase é un palíndromo';
+	} else {
+		texto = 'A frase NON é un palíndromo';
+	}
+	amosarResultado(texto);
+}
+
+function exercicio7() { 
+	datos.innerHTML = textoDatos + 	"<p><label>FRASE: </label><input type='text' id='frase' size='100'/></p>" +
+									"<div class='boton' onclick='palindromo(frase.value);'>Comprobar</div>";
+}
+
+function pedirFigura(paralelogramo) {
+	figura = paralelogramo;
+	switch (figura) {
+		case 0: textoActual = "<p><label>Base: </label><input id='lado1' type='text'></p>" + 
+							  "<p><label>Altura: </label><input type='text' onchange='compararFigura(lado1.value,this.value);'></p>"; break;
+		case 1: textoActual = "<p><label>Lado: </label><input type='text' onchange='compararFigura(this.value);'></p>"; break;
+		case 2: textoActual = "<p><label>Lado 1: </label><input id='lado1' type='text'></p>" + 
+							  "<p><label>Lado 2: </label><input id='lado2' type='text'></p>" +
+							  "<p><label>Lado 3: </label><input type='text' onchange='compararFigura(lado1.value,lado2.value,this.value);'></p>"; break;
+		case 3: textoActual = "<p><label>Radio: </label><input type='text' onchange='compararFigura(this.value);'></p>"; break;
+		default: break;
+	}
+	datos.innerHTML = textoDatos + textoOpcions + textoActual + textoAnterior;
+}
+
+function compararFigura(lado1,lado2,lado3) {
+	lado1 = parseFloat(lado1);
+	lado2 = parseFloat(lado2);
+	lado3 = parseFloat(lado3);
+	switch (figura) {
+		case 0: nomeFigura = 'Rectángulo'; area = lado1 * lado2; break;
+		case 1: nomeFigura = 'Cadrado'; area = lado1 * lado1; break;
+		case 2: nomeFigura = 'Triángulo'; semi = (lado1 + lado2 + lado3)/2; area = Math.sqrt(semi*(semi-lado1)*(semi-lado2)*(semi-lado3)); break;
+		case 3: nomeFigura = 'Círculo'; area = Math.PI * lado1 * lado1; break;
+		default: break;
+	}
+	numFigura++;
+	textoAnterior += "<p>A figura " + numFigura + " (" + nomeFigura + ") ten unha área de: " + area + "</p>";
+	amosarOpcions();
+	if (area > areaMaior) { areaMaior = area; numFiguraMaior = numFigura; }
+	texto = "A figura " + numFiguraMaior + " é a que ten unha área maior";
+	amosarResultado(texto);
+}
+
+function amosarOpcions() {	
+	datos.innerHTML = textoDatos + textoOpcions + textoAnterior;								
+}
+
+function exercicio8() { 
+	numFigura = 0;
+	areaMaior = 0;
+	textoAnterior = '';
+	textoOpcions = "<p><div class='boton' onclick='pedirFigura(0);'>Rectángulo</div>" +
+					"<div class='boton' onclick='pedirFigura(1);'>Cadrado</div>" +
+					"<div class='boton' onclick='pedirFigura(2);'>Triángulo</div>" +
+					"<div class='boton' onclick='pedirFigura(3);'>Círculo</div></p>";
+	amosarOpcions();
+}
+
+function xerar() {
+	numero1.value = Math.floor(Math.random()*10);
+	numero2.value = Math.floor(Math.random()*10);
+}
+	
+function comparar(n1,n2) { 
+	maior.value = n1;
+	if (n1 == n2) {
+		texto = 'Os números son iguais';
+	} else {
+		texto = 'Os números son distintos';
+		if (n2 > n1) { maior.value = n2; }
+	}
+	amosarResultado(texto);
+}
+
+function exercicio9() {
+	datos.innerHTML = textoDatos + 	"<p><label>Número 1: </label><input type='text' id='numero1' size='1'/></p>" +
+									"<p><label>Número 2: </label><input type='text' id='numero2' size='1'/></p>" +
+									"<p><label>Número maior: </label><input type='text' id='maior' size='1'/></p>" +
+									"<div class='boton' onclick='xerar();'>Xerar</div>" +
+									"<div class='boton' onclick='comparar(numero1.value,numero2.value);'>Comparar</div>";
+}
+
+function estatistica(frase) {
+	var letras = 0;
+	var numeros = 0;
+	var outros = 0;
+	for (var i=0; i<frase.length; i++) {
+		if (frase.charAt(i).match(/[0-9]/)) { numeros++; }
+		else if (frase.charAt(i).match(/[a-zñáéíóúA-ZÑáéíóú]/)) { letras++; }
+		else { outros++; }			  
+	}
+	
+	texto = 'A frase contén ' + letras + ' letras, ' + numeros + ' números e outros ' + outros + ' caracteres';
+	amosarResultado(texto);
+}
+
+function exercicio10() {
+	datos.innerHTML = textoDatos + 	"<p><label>FRASE: </label><input type='text' size='100' onchange='estatistica(this.value);'/></p>";
+}
+
+function taboa(numero) {
+	var texto = '';
+	for (var i=1; i<=10; i++) {
+		texto += "<p>" + numero + "*" + i + " = " + (numero*i) + "</p>";
+	}
+	amosarResultado(texto);
+}
+
+function exercicio11() {
+	datos.innerHTML = textoDatos + 	"<p><label>Introduce o número: </label><input type='text' size='2' onchange='taboa(this.value);'/></p>";
+}

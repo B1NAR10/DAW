@@ -1,0 +1,113 @@
+:root {
+  --marginLateral: 24px;
+}
+* {
+  color: white;
+  font-family: Arial;
+}
+fieldset {
+  border: 1px solid white;
+  border-radius: 12px;
+  margin: 0;
+}
+#registro {
+  display: flex;
+  flex-direction: column;
+  background-color: #4c4c4c;
+  border-radius: 24px;
+  gap: 24px;
+  padding: 2.5%;
+}
+#perfil {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5%;
+  align-items: center;
+}
+#perfil img {
+  border-radius: 12px;
+  max-width: 100%;
+  object-fit: contain;
+}
+#perfil div {
+    width: 8%;
+  }
+#section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 2.5%;
+}
+#datos {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  gap: 12px;
+}
+#datos div {
+  display: flex;
+  flex-direction: row;
+}
+#datos label {
+  display: flex;
+  flex-direction: row;
+}
+#datos label span {
+  width: 50%;
+}
+#datos label input {
+  width: 50%;
+}
+#datos div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+#datos p {
+  width: 50%;
+}
+#datos div div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+#datos textarea {
+    height: 100px;
+    color: black;
+}
+#datos #color{
+    width: 10%;
+}
+#temas {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+#temas textarea {
+    overflow-y: scroll;
+    height: 120px;
+    resize: none;
+    color: black;
+}
+#aficiones {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+#registro button {
+  border-radius: 20px;
+  width: 15%;
+  height: 48px;
+  background-color: #a4b355;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 80%;
+}
+#direccion {
+  height: 120px;
+}
+
+

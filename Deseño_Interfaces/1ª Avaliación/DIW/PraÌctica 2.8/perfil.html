@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="perfil.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="registro">
+      <div id="perfil">
+        <div>
+          <img src="perfl.jpg" />
+        </div>
+        <h1>Perfil</h1>
+      </div>
+      <div id="section">
+        <fieldset id="datos">
+          <legend>Datos</legend>
+          <label>
+            <span id="test">Fecha de nacimiento:</span
+            ><input type="date" placeholder="dd/mm/aaaa" />
+          </label>
+          <label>
+            <span>Ingrese su foto: </span
+            ><input type="file" name="Seleccionar archivo" />
+          </label>
+          <label><span>Nacionalidad: </span><input type="text" /> </label>
+          <label>
+            <span>Color favorito: </span><input id="color" type="color" value="#000000" />
+          </label>
+          <div>
+            <p>Sexo:</p>
+            <div>
+              <label>
+                <input type="radio" id="masculino" value="masculino" />masculino
+              </label>
+              <label>
+                <input type="radio" id="femenino" value="femenino" />Femenino
+              </label>
+            </div>
+          </div>
+          <label>
+            <span>Edad:</span>
+            <input type="text" />
+          </label>
+          <label id="direccion">
+            <span>Dirección:</span>
+            <textarea></textarea>
+          </label>
+        </fieldset>
+        <fieldset id="temas">
+          <legend>Temas</legend>
+          <p>Elija tema de interes:</p>
+          <label>
+            <input type="radio" id="ciencia" value="ciencia" />Ciencia
+          </label>
+          <label> <input type="radio" id="arte" value="arte" />Arte </label>
+          <label>
+            <input type="radio" id="literatura" value="literatura" />Literatura
+          </label>
+          <label>
+            <input type="radio" id="tecnologia" value="tecnologia" />Tecnologia
+          </label>
+          <label>
+            <input type="radio" id="musica" value="musica" />Música
+          </label>
+          <label>
+            <input
+              type="radio"
+              id="informatica"
+              value="informatica"
+            />Informática
+          </label>
+          <p>Libros y artículos de su interés:</p>
+          <textarea>
+Asp.net
+vb.net
+c#.net
+Javascript
+Java
+C
+C++
+Perl
+php
+Fortran
+          </textarea>
+        </fieldset>
+        <fieldset id="aficiones">
+          <legend>Aficiones</legend>
+          <p>Elija su pasatiempo:</p>
+          <label>
+            <input type="checkbox" id="deporte" value="deporte" />
+            Deporte
+          </label>
+          <label>
+            <input type="checkbox" id="musica" value="musica" />
+            Música
+          </label>
+          <label>
+            <input type="checkbox" id="lectura" value="lectura" />
+            Lectura
+          </label>
+          <label>
+            <input type="checkbox" id="pesca" value="pesca" />
+            Pesca
+          </label>
+          <label>
+            <input type="checkbox" id="pasear" value="pasear" />
+            Pasear
+          </label>
+          <label>
+            <input type="checkbox" id="cine" value="cine" />
+            Cine
+          </label>
+        </fieldset>
+      </div>
+      <button type="button">Enviar informacion</button>
+    </div>
+  </body>
+</html>

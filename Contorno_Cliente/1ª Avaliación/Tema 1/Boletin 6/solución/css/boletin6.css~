@@ -1,0 +1,100 @@
+body {  
+	text-align: center;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: white;
+	padding: 20px 100px;
+	color: #1E90FF;
+}
+
+nav {
+	height:50px;
+}
+
+figure {
+	display: inline-block;
+	width: 10%;
+}
+
+img  {
+	width: 60%;
+}
+
+h1 {
+	padding: 10px;
+	background-color: #1E90FF;
+	font: bold 40px verdana, sans-serif;
+	color: white;
+	text-align: center;
+}
+
+h2 {
+	padding: 10px;
+	background-color: #1E90FF;
+	font: 20px verdana, sans-serif;
+	color: white;
+	text-align: center;
+}
+
+div {
+	font-size: 16px;
+	margin: 0px 5px 0px 5px;
+	padding: 10px 15px;
+	text-align: justify;
+	font-size: 16px;
+}
+
+div.menu {
+	display: inline-block;
+	cursor: pointer;
+}
+
+div.activo, span.activo {	
+	color: red;
+}
+
+div.boton {
+	display: inline-block;
+	cursor: pointer;
+	padding: 10px;
+	background-color: #1E90FF;
+	font: 20px verdana, sans-serif;
+	color: white;
+	text-align: center;
+}
+
+div p {
+	text-align: justify;
+	font-size: 16px;
+	padding: 10px 30px;
+}
+
+span.resultado {
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px;
+	cursor: pointer;
+}
+
+span.correcto {	
+	color: lime;
+}
+
+img.billete {
+	height: 100%;
+}
+
+div ul {
+	text-align: justify;
+	font-size: 16px;
+	padding: 10px 50px;
+}
+
+span.negra {	
+	font-weight: bold;
+}
+
+ul li {
+   list-style-type: disc;
+}
