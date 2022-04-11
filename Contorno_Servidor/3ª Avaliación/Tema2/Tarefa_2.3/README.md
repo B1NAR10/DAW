@@ -10,7 +10,7 @@ Para esta tarefa debes realizar as seguintes actividades e en cada unha delas de
 
 - Parte B (opcional): estaría ben que o programa devolvese qué materia e profesor vai estar a tal hora. Dámoslle desde teclado o valor desa hora.
 
-- [Solución](https://github.com/B1NAR10/DAW/tree/main/Contorno_Servidor/1%C2%AA%20Avaliaci%C3%B3n/Tema%202/2.3%20Elaboraci%C3%B3n%20de%20aplicaci%C3%B3ns%20sinxelas%20en%20PHP%20-%202/Actividade_1)
+- [Solución](https://github.com/B1NAR10/DAW/tree/main/Contorno_Servidor/3%C2%AA%20Avaliaci%C3%B3n/Tema2/Tarefa_2.3/Actividade1)
 
 </br>
 
@@ -18,7 +18,7 @@ Para esta tarefa debes realizar as seguintes actividades e en cada unha delas de
 
 - Realiza un conversor de euros a pesetas e a dólares americanos. Se metemos euros que nos de a cantidade en pesetas e dólares americanos, se introducimos de datos pesetas, a qué equivale en dólares e en euros... facer todas as combinacións.
 
-- [Solución](https://github.com/B1NAR10/DAW/tree/main/Contorno_Servidor/1%C2%AA%20Avaliaci%C3%B3n/Tema%202/2.3%20Elaboraci%C3%B3n%20de%20aplicaci%C3%B3ns%20sinxelas%20en%20PHP%20-%202/Actividade_2)
+- [Solución](https://github.com/B1NAR10/DAW/tree/main/Contorno_Servidor/3%C2%AA%20Avaliaci%C3%B3n/Tema2/Tarefa_2.3/Actividade2)
 
 </br>
 
@@ -28,5 +28,5 @@ Para esta tarefa debes realizar as seguintes actividades e en cada unha delas de
 
 - Parte B (opcional): estaría ben que o programa puidese representar outro tipo de figuras, coma un círculo cheo de asteriscos.
 
-- [Solución](https://github.com/B1NAR10/DAW/tree/main/Contorno_Servidor/1%C2%AA%20Avaliaci%C3%B3n/Tema%202/2.3%20Elaboraci%C3%B3n%20de%20aplicaci%C3%B3ns%20sinxelas%20en%20PHP%20-%202/Actividade_3)
+- [Solución](https://github.com/B1NAR10/DAW/tree/main/Contorno_Servidor/3%C2%AA%20Avaliaci%C3%B3n/Tema2/Tarefa_2.3/Actividade3)
   
