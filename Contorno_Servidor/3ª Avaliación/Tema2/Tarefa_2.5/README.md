@@ -12,7 +12,7 @@ Escribe un programa no que debes ordenar 10 números de maior a menor:
 
     b) Os números debes conseguilos mediante unha petición por pantalla e insertalos nun array.
 
-- [Solución](https://github.com/B1NAR10/DAW/tree/main/Contorno_Servidor/1%C2%AA%20Avaliaci%C3%B3n/Tema%202/2.5%20Elaboraci%C3%B3n%20de%20aplicaci%C3%B3ns%20sinxelas%20en%20PHP%20-%204%20(Arrays%20e%20Funci%C3%B3ns)/Actividade_1)
+- [Solución](https://github.com/B1NAR10/DAW/tree/main/Contorno_Servidor/3%C2%AA%20Avaliaci%C3%B3n/Tema2/Tarefa_2.5/Actividade_1)
 
 </br>
 
@@ -27,7 +27,7 @@ Escribe un programa no que debes ordenar 10 números de maior a menor:
     <https://obedalvarado.pw/blog/las-5-mejores-librerias-gratuitas-generar-graficos-php/>
 </br>
 
-- [Solución](https://github.com/B1NAR10/DAW/tree/main/Contorno_Servidor/1%C2%AA%20Avaliaci%C3%B3n/Tema%202/2.5%20Elaboraci%C3%B3n%20de%20aplicaci%C3%B3ns%20sinxelas%20en%20PHP%20-%204%20(Arrays%20e%20Funci%C3%B3ns)/Actividade_2)
+- [Solución](https://github.com/B1NAR10/DAW/tree/main/Contorno_Servidor/3%C2%AA%20Avaliaci%C3%B3n/Tema2/Tarefa_2.5/Actividade_2)
 
 </br>
 
@@ -35,7 +35,7 @@ Escribe un programa no que debes ordenar 10 números de maior a menor:
 
 - Realiza un programa que pida 8 números enteiros e que logo amose esos números con cores: os pares dunha cor e os impares doutro.
 
-- [Solución](https://github.com/B1NAR10/DAW/tree/main/Contorno_Servidor/1%C2%AA%20Avaliaci%C3%B3n/Tema%202/2.5%20Elaboraci%C3%B3n%20de%20aplicaci%C3%B3ns%20sinxelas%20en%20PHP%20-%204%20(Arrays%20e%20Funci%C3%B3ns)/Actividade_3)
+- [Solución](https://github.com/B1NAR10/DAW/tree/main/Contorno_Servidor/3%C2%AA%20Avaliaci%C3%B3n/Tema2/Tarefa_2.5/Actividade_3)
 
 </br>
 
@@ -53,7 +53,7 @@ Escribe un programa no que debes ordenar 10 números de maior a menor:
 
         d) xuntaNumeros: Pega dous números para formar un (por exemplo: 12 e 432 debería devolver o 12432)
 
-- [Solución](https://github.com/B1NAR10/DAW/tree/main/Contorno_Servidor/1%C2%AA%20Avaliaci%C3%B3n/Tema%202/2.5%20Elaboraci%C3%B3n%20de%20aplicaci%C3%B3ns%20sinxelas%20en%20PHP%20-%204%20(Arrays%20e%20Funci%C3%B3ns)/Actividade_4)
+- [Solución](https://github.com/B1NAR10/DAW/tree/main/Contorno_Servidor/3%C2%AA%20Avaliaci%C3%B3n/Tema2/Tarefa_2.5/Actividade_4)
 
 </br>
 
@@ -63,7 +63,7 @@ Escribe un programa no que debes ordenar 10 números de maior a menor:
 
     b) Repite o exercicio pero empregando a biblioteca creada do exercicio 4
 
-- [Solución](https://github.com/B1NAR10/DAW/tree/main/Contorno_Servidor/1%C2%AA%20Avaliaci%C3%B3n/Tema%202/2.5%20Elaboraci%C3%B3n%20de%20aplicaci%C3%B3ns%20sinxelas%20en%20PHP%20-%204%20(Arrays%20e%20Funci%C3%B3ns)/Actividade_5)
+- [Solución](https://github.com/B1NAR10/DAW/tree/main/Contorno_Servidor/3%C2%AA%20Avaliaci%C3%B3n/Tema2/Tarefa_2.5/Actividade_5)
 
 </br>
 
@@ -71,4 +71,4 @@ Escribe un programa no que debes ordenar 10 números de maior a menor:
 
 - Escribe un programa que permita pasar de binario a decimal.
 
-- [Solución](https://github.com/B1NAR10/DAW/tree/main/Contorno_Servidor/1%C2%AA%20Avaliaci%C3%B3n/Tema%202/2.5%20Elaboraci%C3%B3n%20de%20aplicaci%C3%B3ns%20sinxelas%20en%20PHP%20-%204%20(Arrays%20e%20Funci%C3%B3ns)/Actividade_6)
+- [Solución](https://github.com/B1NAR10/DAW/tree/main/Contorno_Servidor/3%C2%AA%20Avaliaci%C3%B3n/Tema2/Tarefa_2.5/Actividade_6)
