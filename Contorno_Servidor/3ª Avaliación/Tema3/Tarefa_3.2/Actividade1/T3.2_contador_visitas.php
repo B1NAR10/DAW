@@ -1,3 +1,14 @@
+<?php    
+        session_start();
+
+        if(isset($_SESSION['visitas'])){
+            $_SESSION['visitas']++;
+        }else{
+            $_SESSION['visitas'] = 1;     
+        }
+
+       
+?>
 <!DOCTYPE html>
 <html lang="gl">
 <head>
@@ -10,17 +21,7 @@
     <h2>Actividade 1 - Contador de Visitas con Sesións </h2> <br>
 
     <?php
-
-        session_start();
-
-        if(!isset($_SESSION['contador'])){
-            $_SESSION['contador'] = 0;
-        }
-
-        $_SESSION['contador']++;
-
-        echo "<b>Visitas: </b>" . $_SESSION['contador'];
-
+        echo "<b>Visitas: </b>" . $_SESSION['visitas'];
     ?>
 		
 	</form>   
