@@ -1,3 +1,20 @@
+<?php
+    
+    session_start();
+
+    if (!isset($_SESSION['suma'])) {
+        $_SESSION['suma'] = 0;
+    }
+
+    if (!isset($_SESSION['cantidadeElementos'])) {
+        $_SESSION['cantidadeElementos'] = 0;
+    }
+
+    if (!isset($_SESSION['media'])) {
+        $_SESSION['media'] = 0;
+    }
+
+?>
 <!DOCTYPE html>
 <html lang="gl">
 <head>
@@ -12,25 +29,33 @@
    
 
     <?php
-
+   
+        if (isset($_POST['numero'])) {
+            $numero = $_POST['numero'];
         
-       
-        // Recoger datos teclado con sesiones
-        session_start();
-        
-
-        // for(int $i = 0; $i < 0; $i++) {
-        //     $n1[$i] = $_POST['numeros'];
-        // }
-        
-        for ($i=0; $i<0; $i++) {
-
-            echo "<br>Entrada ".($i+1)."<input type='text' name='input".($i+1)."'>";
-        
+            if ($numero >= 0) {
+                $_SESSION['suma'] += $numero;
+                $_SESSION['cantidadeElementos']++;
+            $_SESSION['media'] = $_SESSION['suma'] / $_SESSION['cantidadeElementos'];
+            } else {
+                session_destroy();
+                header("refresh: 0;"); 
+            }
         }
-        
-
     ?>
     
+    <h3>
+        <p>Suma = <?php echo $_SESSION['suma']; ?></p>
+        <p>Cantidade de Elementos = <?php echo $_SESSION['cantidadeElementos'] ?></p>
+        <p>Media = <?php echo $_SESSION['media'] ?></p>
+
+    </h3>
+    <br>
+    <form action="#" method="POST">
+        <p>Introduzca un Número: </p>
+        <p><input type="number" name="numero"></p>
+        <p><input type="submit" value="OK"></p>
+    </form>
+
 </body>
 </html>
