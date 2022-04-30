@@ -23,3 +23,24 @@ function resolver1(num1,num2){
     var resultado = parseInt(num1) + parseInt(num2);
     solucion.textContent = resultado
 }
+
+
+///////////////////////////////////////////////////////////////
+//                                                           //
+//       Exercicio 2: Un individuo quere investir o seu      //
+//       capital nun banco e desexa saber cantos cartos      //
+//       aforrará depois de tres meses, se o banco paga a    //
+//       razón do 2% mesual.                                 //
+//                                                           //
+///////////////////////////////////////////////////////////////
+
+function exercicio2(){
+    enunciado.innerHTML = "Un individuo quere investir o seu capital nun banco e desexa saber cantos cartos aforrará depois de tres meses, se o banco paga a razón do 2% mesual: ";
+    datos.innerHTML =
+    '<form>' +
+        '<p><label>Introduza o montante inicial: </label>' +
+        '<input id="entrada1"></input></p>' +
+        '<button type ="button" onclick = "CalcularIntereses()">Calcular</button>' +
+    '</form>'
+
+}
