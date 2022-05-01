@@ -41,9 +41,20 @@ function exercicio2(){
     enunciado.innerHTML = "Un individuo quere investir o seu capital nun banco e desexa saber cantos cartos aforrará depois de tres meses, se o banco paga a razón do 2% mesual: ";
     datos.innerHTML =
     '<form>' +
-        '<p><label>Introduza o montante inicial: </label>' +
-        '<input id="entrada1"></input></p>' +
-        '<button type ="button" onclick = "CalcularIntereses()">Calcular</button>' +
+        '<p> <label>Introduza o montante inicial: </label></br>' +
+        '<input id="capital"></input> </p></br>' +
+        
+        '<button type ="button" onclick = "CalcularIntereses(capital.value)">Calcular</button>' +
     '</form>'
 
+}
+
+function CalcularIntereses(capital){
+    let capital = parseFloat(capital);
+    const xuro = 0.02;
+
+    let xuros = capital * xuro;
+    xuros += (capital + xuros) * xuro;
+    xuros += (capital + xuros) * xuro;
+    resultado.textContent = "O total a pagar é de: " + xuros.toFixed(2) + ' €';
 }
