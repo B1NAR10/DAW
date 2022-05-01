@@ -11,17 +11,20 @@ function exercicio1(){
     enunciado.innerHTML = "Suma de dous Numeros e Impresión do Resultado:";
     datos.innerHTML = 
     "<form id='form1'>" +
-         "<input id='numero1'/>" +
-         "</br>"
-         "<input id='numero2'/>" +
-          "<button type='button' onclick='resolver1(numero1.value,numero2.value)'>Sumar</button>" +
-      "</form>";
-    solucion.textContent = '';
+        "<label>Numero 1:</label></br>" +
+        "<input id='num1'/> </br></br>" +
+
+        "<label>Numero 2:</label></br>" +
+        "<input id='num2'/> </br></br>" +
+
+        "<button type='button' onclick='suma(num1.value,num2.value)'>Sumar</button>" +
+    "</form>";
+    resultado.textContent = '';
 }
 
-function resolver1(num1,num2){
-    var resultado = parseInt(num1) + parseInt(num2);
-    solucion.textContent = resultado
+function suma(num1,num2){
+    let suma = parseFloat(num1) + parseFloat(num2);
+    resultado.textContent ="A Suma de: " + num1 + " + " + num2 + " = " + suma;
 }
 
 
