@@ -10,11 +10,11 @@ Realiza a entrega dun .pdf no que se vexan os pasos a seguir para a resolución 
 
 <https://www.youtube.com/watch?v=SHabCAwWqSU>
 
-## Actividade 2
+##  Actividade 2
 
 Crea unha aplicación base de datos con MySQL que conteña como columnas:
 
-- Títulocñldsf  
+- Título
 - Texto
 - Categoría (deportes, local, tecnoloxía...)
 - Data
