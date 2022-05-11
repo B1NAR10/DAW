@@ -5,42 +5,40 @@ Realiza a entrega dun .pdf no que se vexan os pasos a seguir para a resolución 
 ## Actividade 1
 
 - Segue os pasos que se describen no seguinte link para a creación dunha base de datos utilizando MySQL utilizando PHP. Trátase de rexistrar: o usuario, a clave e a data
-
+</br>
 - Insertar en base de datos MySQL con PHP:
 
 <https://www.youtube.com/watch?v=SHabCAwWqSU>
 
-##  Actividade 2
+## Actividade 2
 
-- Crea unha aplicación base de datos con MySQL que conteña como columnas:
+Crea unha aplicación base de datos con MySQL que conteña como columnas:
 
-  - Título
+- Títulocñldsf  
+- Texto
+- Categoría (deportes, local, tecnoloxía...)
+- Data
+- Imaxe
 
-  - Texto
-
-  - Categoría (deportes, local, tecnoloxía...)
-
-  - Data
-
-  - Imaxe
-
-- Algo semellante ao que aparece na seguinte imaxe.
+Algo semellante ao que aparece na seguinte imaxe.
 
 img
 
 Links útiles:
 
-- Cómo utilizar o tipo de datos BLOB de MySQL para almacenar imáxes con PHP en Ubuntu 18.04
+Cómo utilizar o tipo de datos BLOB de MySQL para almacenar imáxes con PHP en Ubuntu 18.04
 
 <https://www.digitalocean.com/community/tutorials/how-to-use-the-mysql-blob-data-type-to-store-images-with-php-on-ubuntu-18-04-es>
 
-- Almacenar arquivos en campos BLOB con PHP e MySQL:
+Almacenar arquivos en campos BLOB con PHP e MySQL:
 
 <https://www.solvetic.com/tutoriales/article/2481-almacenar-archivos-en-campos-blob-con-php-y-mysql/>
 
-- Levando datos das páxinas en PHP a base en MySQL:
+Levando datos das páxinas en PHP a base en MySQL:
 
 <https://disenowebakus.net/llevando-datos-de-las-paginas-php-a-la-base-mysql.php>
+
+</br>
 
 Levando datos da base MySQL as páxinas PHP:
 
