@@ -10,6 +10,10 @@ Realiza a entrega dun .pdf no que se vexan os pasos a seguir para a resolución 
 
 <https://www.youtube.com/watch?v=SHabCAwWqSU>
 
+- [Solución](https://github.com/B1NAR10/DAW/tree/main/Contorno_Servidor/3%C2%AA%20Avaliaci%C3%B3n/Tema4/Tarefa_4.2/Actividade1)
+
+</br></br>
+
 ##  Actividade 2
 
 Crea unha aplicación base de datos con MySQL que conteña como columnas:
@@ -53,3 +57,7 @@ Levando datos da base MySQL as páxinas PHP:
 <https://www.youtube.com/watch?v=nxV1lJA8JCU>
 
 <https://www.youtube.com/results?search_query=como+insertar+datos+en+mysql+desde+php>
+
+</br>
+
+- [Solución](https://github.com/B1NAR10/DAW/tree/main/Contorno_Servidor/3%C2%AA%20Avaliaci%C3%B3n/Tema4/Tarefa_4.2/Actividade2)
