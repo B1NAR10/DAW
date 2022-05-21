@@ -1,0 +1,16 @@
+body { text-align: left; font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 1vw; background-color: white; color: #6c7b84; }
+header h1 { padding: 1.35vh 0.625vw; background-color: #1E90FF; font: bold 2.5vw verdana, sans-serif; color: white; text-align: center; }
+footer h2 { padding: 1.35vh 0.625vw; background-color: #1E90FF; font: 1.25vw verdana, sans-serif; color: white; text-align: center; }
+#taboleiro { margin: 5vh 5vw; display: grid; justify-content: center; }
+div.cabeceira, div.numeros, div.puntuacion, div.idioma { display: flex; align-items: center; justify-content: center; }
+div.numeros { padding: 0vh 5vw; width: 50%; justify-content: left; }
+div.idioma { width: 50%; justify-content: right; }
+div.numero, figure.idioma { padding: 1vh 1vw; cursor: pointer; }
+.activa { color: red; font-size: 30px; font-weight: bold; }
+div.fila { display: grid; grid-template-columns: repeat(13, 4vw); grid-gap: 0.25vw; }
+#solucion { display: flex; align-items: center; justify-content: center; }
+div.letra { border-bottom: 3px solid red; width: 5vw; height: 10vh; margin: 5vh 1vw; }
+
+figure.letras { margin: -2.6vh 0.15vw; }
+figure.letras img { width: 4vw; }
+
