@@ -78,12 +78,8 @@
         // array_search($data, $libra);
         // array_search($data, $escorpio);
 
-        foreach($signos as $key=>data){
-            if(in_array($data, $signos[$key])){
-                $signo = $key;
-            }
-           }
-           
+        
+    }       
 
  
 ?>
