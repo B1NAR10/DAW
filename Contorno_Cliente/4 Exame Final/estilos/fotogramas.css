@@ -1,0 +1,46 @@
+body { text-align: left; font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 1vw; background-color: white; color: #6c7b84; }
+header h1 { padding: 1.35vh 0.625vw; background-color: #1E90FF; font: bold 2.5vw verdana, sans-serif; color: white; text-align: center; }
+.opcion { height: 8vh; float: right; margin: -8.5vh 0vw 0vh 0vw; }
+footer h2 { padding: 1.35vh 0.625vw; background-color: #1E90FF; font: 1.25vw verdana, sans-serif; color: white; text-align: center; }
+#contido { width: 100%; height: 79vh; display: flex; justify-content: space-evenly; align-items: flex-start; background-image: url(../imaxes/inicio.png); background-repeat: no-repeat; background-size: cover; background-position: center; }
+#dereita { width: 20%; display: flex; justify-content: space-between; }
+#esquerda { width: 80%; }
+
+#mensaxe { margin: -65vh auto; border-radius: 2vh; border-color: #0b77b7; }
+h3 { padding: 2.2vh 2.1vw; color: #fff; background-color: #1E90FF; text-align: center; font-size: 1.5em; }	
+fieldset { border: 1px solid #ddd; padding: 1.5vh 0.8vw; margin: 3vh 1.5vw; }
+div.fieldset { margin: 0.3em 0; clear: both; display: flex; align-items: baseline;}
+div.mensaxeErro { font-size: 1.5em; padding: 1.5vh 0.8vw; margin: 3vh 1.5vw; }
+legend { color: #0b77b7; font-size: 1.5em; text-align: left; }
+label { float: left; width: 16.8vw; text-align: right; margin-right: 1.68vw; font-size: 1.5em; }
+input { padding: 1vh 1vw; width: 16.8vw; border: 1px solid #ddd; background: #fafafa; font: bold 1.5em arial, sans-serif; }
+input:hover, input:focus { border-color: #666; background: #D2E4F9; }
+#comprobar { width: 100%; text-align: center; padding: 10px; }
+
+#botons { display: flex; padding: 1vh 1vw; justify-content: space-around; }
+button { display: flex; cursor: pointer; padding: 2vh .5vw; }
+button figure img, div.acertadas figure img { height: 1.5vh; }
+figure.letras { padding: 0vh 0.05vw; }
+.botons { display: flex; flex-direction: column; align-items: center; }
+div.acertadas { display: flex; padding: .9vh 0vw; }
+
+#carrusel { display: flex; padding: 5vh 0vw; justify-content: space-around; align-items: center; } 
+.fotograma { width: 30vh; cursor: pointer; }
+.escollido { width: 30vh; cursor: default; }
+.oculto { display: none;}
+.defecto { cursor: default; }
+.carrusel { width: 10vh; }
+.punteiro { cursor: pointer; }
+#carrusel + div { display: flex; padding: 2.75vh 1.05vw; justify-content: center; }
+#carrusel + div figure img { height: 2.5vh; }
+
+div.ocos, div.letras { width: 100%; display: flex; padding: 1vh 1vw; }
+div.oco { width: 12%; text-align: center; border: 2px solid #1E90FF; border-radius: 5px; }
+div.espazo { width: 8%; text-align: center; }
+div.letra { width: 12.50%; text-align: center; }
+span.letra { font: bold 40px verdana, sans-serif; color: #1E90FF; margin: auto; cursor: pointer; }
+div.letra figure img, div.oco img { height: 4.5vh; }
+
+#arriba { width: 100%; display: flex; justify-content: space-between; }
+#nome, #puntos { display: flex; padding: 2.75vh 1.05vw; }
+#nome figure img, #puntos figure img { height: 4.5vh; }
